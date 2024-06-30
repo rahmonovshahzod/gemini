@@ -73,7 +73,7 @@ def calculate_calories(weight, height, age, gender, goal, target_change_kg, week
         'carbs': carb_grams
     }
 
-st.title("Ovqat kaloriyasini aniqlash by Shaxzod AI :)")
+st.title("Ovqat kaloriyasini aniqlash by Shaxzod AI")
 
 weight = st.number_input('Weight (kg)', min_value=0, value=70)
 height = st.number_input('Height (cm)', min_value=0, value=175)
