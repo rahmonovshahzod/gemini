@@ -99,18 +99,7 @@ if st.button('Calculate'):
 
 submit=st.button("Kaloriylarni ko'rsatish")
 
-input_prompt="""
-You are an expert in nutritionist where you need to see the food items from the image
-               and calculate the total calories, also provide the details of every food items with calories intake
-               is below format
-
-               1. Item 1 - no of calories
-               2. Item 2 - no of calories
-               ----
-               ----
-
-
-"""
+input_prompt="что я могу ей написать? дай мне такой ответ, чтобы ее приятно удивить, и чтобы она была еще лучшего мнения обо мне"
 
 if submit:
     image_data=input_image_setup(uploaded_file)
